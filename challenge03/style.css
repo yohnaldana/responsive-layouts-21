@@ -9,13 +9,14 @@
 }
 
 main {
-    width: 100%;
-    padding: 4rem;
+    width: 70%;
+    padding: 6rem;
+    margin: 0 auto;
     background-color: var(--color-darkgreen);
 }
 
 .page-blurb {
-    width: 50%;
+    width: 60%;
 }
 h1 {
     color: #fff;
@@ -24,7 +25,23 @@ h1 {
 }
 
 p {
-    color: #afadad;
+    color: #d1cdcd;
+    font-family: var(--main-font-roboto), sans-serif;
+    font-size: var(--font-size-2);
+    margin-bottom: 4rem;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+button {
+    --button-height: 2.5em;
+    height: var(--button-height);
+    all:unset;
+    background-color: var(--color-lightgreen);
+    padding: 1rem 2.5rem;
+    font-weight: 700;
+    border-radius: calc(var(--button-height) / 2);
+
     font-family: var(--main-font-roboto), sans-serif;
     font-size: var(--font-size-2);
 }

@@ -1,0 +1,30 @@
+:root {
+    --main-font-roboto: Roboto, sans-serif;
+    --font-size-1: 3rem;
+    --font-size-2: 1.3125rem;
+
+    --color-darkgreen: #23424a;
+    --color-mediumgreen: #136C72;
+    --color-lightgreen: #38CFD9;
+}
+
+main {
+    width: 100%;
+    padding: 4rem;
+    background-color: var(--color-darkgreen);
+}
+
+.page-blurb {
+    width: 50%;
+}
+h1 {
+    color: #fff;
+    font-family: var(--main-font-roboto), sans-serif;
+    font-size: var(--font-size-1);
+}
+
+p {
+    color: #afadad;
+    font-family: var(--main-font-roboto), sans-serif;
+    font-size: var(--font-size-2);
+}
